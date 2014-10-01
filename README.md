@@ -5,5 +5,5 @@ Entry from Local
 
 Cleanup
 
-crappy
+No crap
 
