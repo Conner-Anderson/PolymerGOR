@@ -76,10 +76,15 @@
 
       <core-toolbar>
 
-        <paper-menu-button  class="" icon="menu">
-          <paper-item icon="refresh" label="Refresh"></paper-item>
-          <paper-item label="Help"></paper-item>
-          <paper-item label="Sign Out"></paper-item>
+        <paper-menu-button id="mobile-menu"  class="" icon="menu">
+          <core-selector selected="0">
+            <paper-item label="About"></paper-item>
+            <paper-item label="The Game"></paper-item>
+            <paper-item label="The Robot"></paper-item>
+            <paper-item label="History"></paper-item>
+            <paper-item label="Members"></paper-item>
+            <paper-item label="Media"></paper-item>
+          </core-selector>
         </paper-menu-button>
 
         <paper-tabs class="hide-for-small" id="tabs" selected="0" self-start excludedLocalNames="paper-icon-button">
@@ -204,6 +209,13 @@
 
 
       $('#tabs paper-tab').bind("click", function() {
+        document.querySelector('core-animated-pages').selected = $(this).index();
+        
+        //document.querySelector('#header-pages').selected = $(this).index();
+
+      });
+
+      $('#mobile-menu paper-item').bind("click", function() {
         document.querySelector('core-animated-pages').selected = $(this).index();
         
         //document.querySelector('#header-pages').selected = $(this).index();
