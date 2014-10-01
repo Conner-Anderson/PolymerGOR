@@ -1,0 +1,142 @@
+      html,body {
+        height: 100%;
+        margin: 0;
+        /*background-color: #E5E5E5;*/
+        background-color: : white;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      p {
+        font-size: 0.875em;
+        color: #212121;
+        font-weight: normal;
+        line-height: 1.4em;
+      }
+
+      h1 {
+        font-size: 3.5em;
+        font-weight: normal;
+        color: #757575;
+      }
+
+      h2 {
+        font-size: 2.813em;
+        font-weight: normal;
+        color: #757575;
+      }
+      h3 {
+        font-size: 2.125em;
+        font-weight: normal;
+        color: #757575;
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
+      h4 {
+        font-size: 1.5em;
+        font-weight: normal;
+        color: #212121;
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
+      h5 {
+        font-size: 1.250em;
+        font-weight: medium;
+        color: #212121;
+      }
+      h6 {
+        font-size: 1.0em;
+        font-weight: normal;
+        color: #212121;
+      }
+
+      p.intro {
+        font-size: 1.3em;
+        color: #6c6c6c;
+        font-weight: 400;
+        line-height: 1.4;
+      }
+
+
+      core-header-panel {
+        /*height: 48px;*/
+        overflow: auto;
+        -webkit-overflow-scrolling: touch; 
+      }
+      core-toolbar {
+        background: #461266;
+
+        color: white;
+        /*height: 48px;*/
+      } 
+
+      paper-menu-button > * {
+        color: black;
+      }
+
+      .block-center {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #tabs {
+        width: 100%;
+        margin: 0;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-transform: uppercase;
+      }
+      body paper-tab #ink {
+        color: #FFF;
+      }
+      
+      .container {
+        width: 80%;
+        margin: 50px auto;
+        display: block;
+        position: relative;
+        background-color: white;
+        padding: 20px;
+        width: 100%;
+        font-size: 1.2rem;
+        font-weight: 300;
+
+      }
+
+      core-animated-pages > section > .section{
+
+        display: block;
+        position: relative;
+        background-color: white;
+        padding: 20px;
+        font-size: 1.2rem;
+        font-weight: 300;
+
+      }
+
+
+      .header {
+        /*height: 341px;*/
+        width: 100%;
+        margin-bottom:30px;
+      }
+
+      .header img {
+        width: 100%;
+        display: block;
+      }
+
+
+      @media (max-width: 600px) {
+        .hide-for-small {
+          display: none;
+        }
+
+      }
+
+      @media (min-width: 600px) {
+        .show-for-small {
+          display: none;
+        }
+
+      }

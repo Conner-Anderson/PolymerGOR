@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Genesis of Robotics | Home</title>
+    <meta name="viewport" 
+      content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <script src="./bower_components/platform/platform.js"></script>
+
+
+    <link rel="import"
+          href="./bower_components/core-ajax/core-ajax.html">
+    <link rel="import" href="./imports.html">
+    <!-- <link rel="import "href="http://fonts.googleapis.com/css?family=Roboto"> -->
+    <link rel="import"
+      href="./bower_components/core-header-panel/core-header-panel.html">
+    <link rel="import"
+      href="./bower_components/core-toolbar/core-toolbar.html">
+    <link rel="import"
+      href="./bower_components/paper-tabs/paper-tabs.html">
+    <link rel="import"
+      href="./bower_components/paper-menu-button/paper-menu-button.html">
+    <link rel="import"
+      href="./bower_components/core-scaffold/core-scaffold.html">
+    <link rel="import"
+      href="./bower_components/core-pages/core-pages.html">
+    <link rel="import"
+      href="./bower_components/core-animated-pages/core-animated-pages.html">
+    <link rel="import"
+      href="./bower_components/core-animated-pages/transitions/slide-from-right.html">
+    <link rel="import"
+      href="./bower_components/core-icon/core-icon.html">
+    <link rel="import" href="./bower_components/core-icons/social-icons.html">
+    <link rel="import" href="./bower_components/core-icon-button/core-icon-button.html">
+    <link rel="import" href="./bower_components/paper-icon-button/paper-icon-button.html">
+    <link rel="import" href="./bower_components/paper-menu-button/paper-menu-button.html">
+
+
+    <link rel="stylesheet" href="./css/html5reset.css" media="all">
+    <link rel="stylesheet" href="./css/responsivegridsystem.css" media="all">
+    <link rel="stylesheet" href="./css/col.css" media="all">
+    <link rel="stylesheet" href="./css/2cols.css" media="all">
+    <link rel="stylesheet" href="./css/3cols.css" media="all">
+    <link rel="stylesheet" href="./css/4cols.css" media="all">
+    <link rel="stylesheet" href="./css/5cols.css" media="all">
+    <link rel="stylesheet" href="./css/6cols.css" media="all">
+    <link rel="stylesheet" href="./css/7cols.css" media="all">
+    <link rel="stylesheet" href="./css/8cols.css" media="all">
+    <link rel="stylesheet" href="./css/9cols.css" media="all">
+    <link rel="stylesheet" href="./css/10cols.css" media="all">
+    <link rel="stylesheet" href="./css/11cols.css" media="all">
+    <link rel="stylesheet" href="./css/12cols.css" media="all">
+    <link rel="stylesheet" href="./css/style.css" media="all">
+
+    <!-- Responsive Stylesheets -->
+    <link rel="stylesheet" media="only screen and (max-width: 1024px) and (min-width: 769px)" href="./css/1024.css">
+    <link rel="stylesheet" media="only screen and (max-width: 768px) and (min-width: 481px)" href="./css/768.css">
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="./css/480.css">
+
+    <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements and feature detects -->
+    <script src="./js/modernizr-2.5.3-min.js"></script>
+
+
+
+    <style shim-shadowdom>
+      /*Colors: Primary- #461266 Lighter - #6a1b9a Accent? - #d01716 */
+      
+    </style>
+  </head>
+  <body unresolved fullbleed layout vertical>
+    <core-header-panel flex>
+
+      <core-toolbar>
+
+        <paper-menu-button  class="show-for-small" icon="menu">
+          <paper-item icon="refresh" label="Refresh"></paper-item>
+          <paper-item label="Help"></paper-item>
+          <paper-item label="Sign Out"></paper-item>
+        </paper-menu-button>
+
+        <paper-tabs class="hide-for-small" id="tabs" selected="0" self-start excludedLocalNames="paper-icon-button">
+          <paper-tab name="about">About</paper-tab>
+          <paper-tab name="thegame">The Game</paper-tab>
+          <paper-tab name="therobot">The Robot</paper-tab>
+          <paper-tab name="history">History</paper-tab>
+          <paper-tab name="members">Members</paper-tab>
+          <paper-tab name="media">Media</paper-tab>
+          
+        </paper-tabs>
+        <div flex></div>
+        <a style="color: #dd4b39" href="https://plus.google.com/100709379743342188196" target="_blank"><core-icon-button icon="social:post-gplus" id="paper_icon_button"></core-icon-button></a>
+        <a style="color: #55acee" href="https://twitter.com/genesisrobotics" target="_blank"><core-icon-button icon="social:post-twitter" id="paper_icon_button"></core-icon-button></a>
+
+        
+
+      </core-toolbar>
+
+
+      <core-animated-pages id="content-pages" transitions="slide-from-right">
+          <section id="about">
+            <div class="header">
+              <img src="./images/isaac-back-header-3.jpg">
+              <paper-shadow z="2"></paper-shadow>
+            </div>
+
+            <div class="section group">
+              
+              <div class="col span_7_of_12">
+                <h3>About Us</h3>
+                <p class="intro" >Genesis of Robotics is a primarily homeschooled team based in Lewisville, which competes through BEST Robotics. They are a team of engineers, artists, and designers. <br> Most importantly, they're a team.</p>
+              </div>
+            </div>
+
+            <div class="section group">
+              <div class="col span_7_of_12">
+                <p>The design engineers plan a robot to complete the competition's challenge, and the build engineers manufacture that design.</p>
+              </div>
+              <div class="col span_5_of_12">
+                <img class="block-center" src="./images/drawing.jpg">
+              </div>
+            </div>
+
+          </section>
+
+          <section id="thegame">
+            <div class="header">
+              <img src="./images/header-2.jpg">
+            </div>
+            <div>Watamajuan!</div>
+              <paper-menu-button  class="" icon="menu">
+                <div>Menu Item 1</div>
+                <div>Menu Item 2</div>
+                <div>Menu Item 3</div>
+              </paper-menu-button>
+          </section>
+
+          <section id="therobot">
+            <div class="header">
+              <img src="./images/header-2.jpg">
+            </div>
+            <div>Watamajuan!</div>
+          </section>
+
+          <section id="history">
+            <div class="header">
+              <img src="./images/team-win-header-1.jpg">
+            </div>
+            <div>Watamajuan!</div>
+          </section>
+
+          <section id="members">
+            <div class="header">
+              <img src="./images/header-2.jpg">
+            </div>
+            <div>Watamajuan!</div>
+          </section>
+
+          <section id="media">
+            <div class="header">
+              <img src="./images/header-2.jpg">
+            </div>
+            <div>Watamajuan!</div>
+          </section>
+      </core-animated-pages>
+    </core-header-panel>
+
+    
+
+      
+      
+
+
+
+
+    
+
+        
+
+
+      
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="./js/jquery-1.7.2.min.js"><\/script>')</script>
+
+
+    <script>
+      // var about = document.querySelector('#about');
+      // var pages = document.querySelector('#pages')
+      // about.onclick = function(e) {
+
+      //   pages.selected = (pages.selected + 1) % pages.items.length;      
+      // };
+      // var tabs = document.querySelector('paper-tabs');
+      // tabs.addEventListener('core-select', function(e) {
+      //   console.log("Selected: " + tabs.selected);
+      // });
+
+
+
+
+
+      $('#tabs paper-tab').bind("click", function() {
+        document.querySelector('core-animated-pages').selected = $(this).index();
+        
+        //document.querySelector('#header-pages').selected = $(this).index();
+
+      });
+      $('.header > paper-shadow').target = $('.header');
+    </script>
+
+
+    <!-- JavaScript at the bottom for fast page loading -->
+
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="js/selectivizr-min.js"></script>
+    <![endif]-->
+
+
+    <!-- More Scripts-->
+    <script src="./js/responsivegridsystem.js"></script>
+</body>
+</html>
