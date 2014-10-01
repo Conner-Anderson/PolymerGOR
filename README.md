@@ -3,16 +3,7 @@ Don't screw up James. Pls
 Entry from GitHub 3
 Entry from Local
 
-Conner entry
+Cleanup
 
-Dooby doo wap
-
-James entry
-
-Cool feature
-
-New Awesome Feature!
-
-
-New Awesome Feature!
+crappy
 
