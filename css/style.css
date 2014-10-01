@@ -73,6 +73,18 @@
         color: black;
       }
 
+      #mobile-menu paper-item:not(.core-selected) #label {
+        opacity: 0.6;
+      }
+
+      #mobile-menu paper-item{
+        opacity: 0.6;
+      }
+
+      #mobile-menu paper-item.core-selected {
+        opacity: 1;
+      }
+
       .block-center {
         margin-left: auto;
         margin-right: auto;
